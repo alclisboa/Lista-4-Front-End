@@ -1,0 +1,108 @@
+.SeeCart {
+    .SeeCartPag {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-bottom: 0px;
+
+        .link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .quantity{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding-top: 10px;
+
+            button{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                border: none;
+            }
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+
+            img {
+                width: 300px;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            .details {
+                h1 {
+                    font-size: 21px;
+                    font-weight: 500;
+                    color: teal;
+                }
+
+                p {
+                    text-align: justify;
+                    color: gray;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                }
+
+                .price {
+                    color: teal;
+                    font-weight: 500;
+                    font-size: 21px;
+                    padding-top: 15px;
+                }
+            }
+
+            .delete {
+                color: rgba(205, 23, 23, 0.763);
+                font-size: 30px;
+                cursor: pointer;
+            }
+        }
+
+        .total {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 400;
+            font-size: 26px;
+            margin-bottom: 20px;
+            color: teal;
+        }
+
+        .button2 {
+            width: 240px;
+            padding: 10px;
+            background-color: teal;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            cursor: pointer;
+            border: none;
+            font-weight: 500;
+        }
+
+        .buttonsBag {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}

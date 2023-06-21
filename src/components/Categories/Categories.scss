@@ -1,0 +1,60 @@
+.categories {
+    display: flex;
+    flex: 1;
+    margin:15px;
+    height: 70vh;
+    position: relative;
+
+    .link{
+        color: inherit;
+        text-decoration: none;
+    }
+    .container {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .imgCategories {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 65vh;
+                height: 100vh;
+                object-fit: cover;
+            }
+        }
+
+        .infoCategories {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .titleInfo {
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            button {
+                border: none;
+                padding: 10px;
+                background-color: white;
+                color: gray;
+                cursor: pointer;
+                font-weight: 600;
+            }
+        }
+
+    }
+}
